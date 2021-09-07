@@ -63,13 +63,13 @@
 
             <h1>Trouvez votre hébergement pour les vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-            <form>
-                <label for="text">
+            <form action="#">
+                <div class="map-marker">
                     <i class="fas fa-map-marker-alt"></i>
-                </label>
-                <div>
-                    <input type="text" maxlength="100" placeholder="Marseille, France" />
-                    <button>
+                </div>
+                <div class="form_text">
+                    <input type="text" id="country" name="country" maxlength="100" size="15" placeholder="Marseille, France" required />
+                    <button type="submit">
                         <i class="fas fa-search btn-mobile-show"></i>
                         <span class="btn-mobile-hide">Rechercher</span>
                     </button>

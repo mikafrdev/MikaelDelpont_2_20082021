@@ -155,7 +155,7 @@ nav ul li:hover a {
     border: 1px solid #f2f2f2;
 }
 
-.cnt_search_engine form label {
+.map-marker {
     width: 50px;
     font-size: 18px;
     border-top-left-radius: 13px;
@@ -168,24 +168,31 @@ nav ul li:hover a {
     justify-content: center;
 }
 
+.form_text {
+    display: flex;
+}
+
 .cnt_search_engine form input[type="text"] {
     width: 100%;
     padding: 18px 18px;
     border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
 }
 
 .cnt_search_engine form input[type="text"]::placeholder {
     font-weight: bold;
     font-size: 16px;
-    color: #000;
+    color: #d9d9d9;
 }
 
 .cnt_search_engine form button {
     position: absolute;
     top: -1px;
-    right: -7px;
-    width: 50px;
-    height: 53px;
+    right: -1px;
+    width: 56px;
+    height: 57px;
     background-color: #0065fc;
     color: #fff;
     border: 0;
