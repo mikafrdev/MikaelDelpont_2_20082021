@@ -157,8 +157,6 @@ nav ul li:hover a {
     font-size: 18px;
     border-top-left-radius: 13px;
     border-bottom-left-radius: 13px;
-    /*border: 1px solid #f2f2f2;
-    background-color: #f2f2f2;*/
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -166,6 +164,7 @@ nav ul li:hover a {
 }
 
 .cnt_search_engine form input[type="text"] {
+    width: 185px;
     padding: 18px 18px;
     border: 0;
     font-size: 16px;
@@ -179,9 +178,13 @@ nav ul li:hover a {
     color: #d9d9d9;
 }
 
+.cnt_search_engine form input[type="text"]:focus {
+    outline: 0;
+}
+
 .cnt_search_engine form button {
     position: absolute;
-    top: -1px;
+    top: 0;
     right: -1px;
     width: 56px;
     height: 57px;
@@ -237,7 +240,7 @@ nav ul li:hover a {
 .filtres li span {
     display: flex;
     width: 50px;
-    height: 48px;
+    height: 49px;
     color: #0065fc;
     border-radius: 30px;
     border: 1px solid #deebff;
@@ -255,6 +258,7 @@ nav ul li:hover a {
 .info {
     display: flex;
     align-items: flex-start;
+    width: 100%;
     margin-top: 20px;
 }
 
@@ -491,6 +495,10 @@ footer a {
     font-size: 12px;
 }
 
+footer div ul li a:hover {
+    text-decoration: underline;
+}
+
 /*********************************/
 /************ CSS AJUST **********/
 /*********************************/
@@ -618,7 +626,7 @@ footer a {
     }
 
     .cnt_search_engine form button {
-        right: -80px;
+        right: -75px;
         width: 134px;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
